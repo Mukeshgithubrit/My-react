@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./basic.css"/>
+</head>
+<body>
+    <!-- Basic html code -->
+    <!-- <div id="root">
+        <h1>Hello World!</h1>
+    </div> -->
+
+    <!-- Basic Javascript code
+    <div id="root"></div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World from Javascript!";
+
+        const root1 = document.getElementById("root");
+        root1.appendChild(heading);
+    </script> -->
+
+    <!-- Basic React code -->
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="./basic.js"></script>
+</body>
+</html>
+
+<!-- Question 1 : What is CDN
+ANS. React is integrated in the projects using package managers like npm or yarn. 
+However, there are some cases where using Content Delivery Network (CDN) links can be a advantage, 
+especially for quick prototypes, or when integrating React into existing projects.
+
+Question 2 : What is Crossorigin
+Ans: In ReactJS, Cross-Origin Resource Sharing or CORS requests refers to the 
+method that allows you to make requests to the server deployed at a different domain. 
+As a reference, if the frontend and backend are at two different domains, we need CORS there. -->
